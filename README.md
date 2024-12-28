@@ -60,13 +60,13 @@ I'm **AQA Engineer**, born in 1986 Samara, Russia, here is some facts about me a
 
 ## 📝 How to Build
 
-Introduction for this test:
-```shell
-Website https://www.takamul.net.sa is heavy if i try run it remotly on https://selenoid.autotests.cloud
+Features for this test:
+
+>Website https://www.takamul.net.sa is heavy if i try run it remotly on https://selenoid.autotests.cloud  
 Because of it the test setuped fro Firefox browser.
-It posible to run it remotly on https://selenoid.autotests.cloud by Chrome browser, it must be windowed on 320*480 size and it takes much more time for each iteration.
+It posible to run it remotly on https://selenoid.autotests.cloud by Chrome browser, it must be windowed on 320*480 size and it takes much more time for each iteration.  
 Or we can run it local by Chrome browser without any problems.
-```
+
 
 To build the packages local, follow these steps:
 
@@ -95,13 +95,11 @@ allure/bin/allure.bat serve tests/allure-results
 # Troubleshooting 
 1. Check for installed python packages. Use "pip install" for packages from "requirements.txt"
 2. Check "path" environment variable windows
-
 ```
 ## 📈 Summary
-First test is just an example of valid test. I fill an incorrect email in order not to clog the production. But it passed!=) And here we go to interesting part of my test...
-
+>First test is just an example of valid test. I fill an incorrect email in order not to clog the production. But it passed!=) And here we go to interesting part of my test...  
 Second and third shows bugs on https://www.takamul.net.sa
-If i truly worked on it, for failed autotests i go there and manually locate this bug, check what can be wrong else? And then i can create a bug report for developers
+If i truly worked on it, for failed autotests i go there and manually locate this bug, check what can be wrong else? And then i can create a bug report for developers/
 
 ## 🗨️ Contacts
 
