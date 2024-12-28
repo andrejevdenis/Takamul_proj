@@ -6,7 +6,12 @@ from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from utils import attach
 from dotenv import load_dotenv
-
+"""
+For local run by Chrome uncomment lines 12-14 and 53-54, comment out lines 15-49
+"""
+# @pytest.fixture(scope='function')
+# def browser_management(request):
+#     browser.driver.fullscreen_window()
 DEFAULT_BROWSER_VERSION = '125'
 def pytest_addoption(parser):
     parser.addoption(

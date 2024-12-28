@@ -3,38 +3,38 @@
 <h3 align="center">Computer science student</h3>
 
 <h3 align="left">My stack:</h3>
-![Python](https://camo.githubusercontent.com/0d0779a129f1dcf6c31613b701fe0646fd4e4d2ed2a7cbd61b27fd5514baa938/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d3336373041303f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d666664643534)
-![Pytest](https://img.shields.io/badge/pytest-%23ffffff.svg?style=for-the-badge&logo=pytest&logoColor=2f9fe3)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)
-![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
-![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
-![IE](https://img.shields.io/badge/Internet%20Explorer-0076D6?style=for-the-badge&logo=Internet%20Explorer&logoColor=white)
-![Opera](https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white)
-![Tor](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
-![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
-![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=black)
 
+![Python](/icons/Python.svg)
+![Pytest](/icons/Pytest.svg)
+![IntelliJ IDEA](/icons/IntelliJ_IDEA.svg)
+![PyCharm](/icons/PyCharm.svg)
+![Git](/icons/Git.svg)
+![Jenkins](/icons/Jenkins.svg)
+![Postman](/icons/Postman.svg)
+![Swagger](/icons/Swagger.svg)
+![Jira](/icons/Jira.svg)
+![Confluence](/icons/Confluence.svg)
+![ElasticSearch](/icons/ElasticSearch.svg)
+![Grafana](/icons/Grafana.svg)
+![MySQL](/icons/MySQL.svg)
+![Postgres](/icons/Postgres.svg)
+![Windows](/icons/Windows.svg)
+![Android](/icons/Android.svg)
+![Ubuntu](/icons/Ubuntu.svg)
+![Firefox](/icons/Firefox.svg)
+![Google Chrome](/icons/Google_Chrome.svg)
+![IE](/icons/Internet_Explorer.svg)
+![Opera](/icons/Opera.svg)
+![Tor](/icons/Tor.svg)
+![Adobe Premiere Pro](/icons/Adobe_Premiere_Pro.svg)
+![Adobe Photoshop](/icons/Adobe_Photoshop.svg)
+![Notepad++](/icons/Notepad.svg)
 
 ## Table of Contents
 - [About](#-about)
 - [How to Build](#-how-to-build)
 - [Summary](#-summary)
-- [Contacts](#-contacts)
+- [Contacts](#O%EF%B8%8F-contacts)
 
 ## 🚀 About 
 I'm **AQA Engineer**, born in 1986 Samara, Russia, here is some facts about me and my QA experience:
@@ -62,13 +62,12 @@ I'm **AQA Engineer**, born in 1986 Samara, Russia, here is some facts about me a
 
 Features for this test:
 
->Website https://www.takamul.net.sa is heavy if i try run it remotly on https://selenoid.autotests.cloud  
-Because of it the test setuped fro Firefox browser.
-It posible to run it remotly on https://selenoid.autotests.cloud by Chrome browser, it must be windowed on 320*480 size and it takes much more time for each iteration.  
-Or we can run it local by Chrome browser without any problems.
+Website https://www.takamul.net.sa is heavy and if i try run it remotely by Chrome browser on https://selenoid.autotests.cloud it must be windowed on 320x480 size and it takes much more time for each iteration.  
+Because of it the test setuped for Firefox browser.  
+Or it can be runed local by Chrome browser without any problems.
 
 
-To build the packages local, follow these steps:
+To build the test local follow these steps:
 
 ```shell
 # Open a terminal (Command Prompt or PowerShell for Windows, Terminal for macOS or Linux)
@@ -85,19 +84,20 @@ https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/
 # Set up it to main folder of project, rename like "allure"
 cd ..\Takamul_proj\allure
 
+# For run it by local browser, apply the specified features in conftest.py
 # Run project to build first allure report
 pytest tests
-For run on local browser delete (browser_management) fixture from "test takamul.py" file
 
 # Build allure report
 allure/bin/allure.bat serve tests/allure-results
 
 # Troubleshooting 
-1. Check for installed python packages. Use "pip install" for packages from "requirements.txt"
-2. Check "path" environment variable windows
+
+1. Check installed python packages. Use pip install for packages from requirements.txt
+2. Check path environment variable windows
 ```
 ## 📈 Summary
->First test is just an example of valid test. I fill an incorrect email in order not to clog the production. But it passed!=) And here we go to interesting part of my test...  
+First test is just an example of valid test. I fill an incorrect email in order not to clog the production. But it passed!=) And here we go to interesting part of my test...  
 Second and third shows bugs on https://www.takamul.net.sa
 If i truly worked on it, for failed autotests i go there and manually locate this bug, check what can be wrong else? And then i can create a bug report for developers/
 
