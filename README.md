@@ -32,9 +32,13 @@
 
 ## Table of Contents
 - [About](#-about)
+- [Takamul Autotst project]()
+- [Objects for test](#-objects-for-test)
 - [How to Build](#-how-to-build)
+- [Example of a report](#-example-of-a-report)
 - [Summary](#-summary)
-- [Contacts](#O%EF%B8%8F-contacts)
+- [Contacts](#-contacts)
+
 
 ## 🚀 About 
 I'm **AQA Engineer**, born in 1986 Samara, Russia, here is some facts about me and my QA experience:
@@ -57,18 +61,26 @@ I'm **AQA Engineer**, born in 1986 Samara, Russia, here is some facts about me a
     Having gained a certain experience, i been able to get a position of MiddleQA in [AO-RR](https://ao-rr.ru/#main__slider), from 04.2024.
 - **My AQA experience**: After i graduated from [QA-Guru](https://qa.guru/) courses i started apply automation at work
 
+# <h1 align="center">Takamul Autotst project</h1> 
+## 🎯 Objects for test
+- Fill and send contact form positive test
+- Fill and send contact form negative test
+- Take some path from main page to check some buttons that java scripts work right and redirects is correct.
 
 ## 📝 How to Build
 
-Features for this test:
+To build autotests in Jenkins:
+1. Open [project](https://jenkins.autotests.cloud/job/Takamul_proj/)
+2. Choose Build with parameters
+3. If necessary, change the parameters by selecting values from lists
+4. Push Build
+5. The result of starting the assembly can be viewed in the Allure report
 
+>Features for this test in Jenkins:  
 Website https://www.takamul.net.sa is heavy and if i try run it remotely by Chrome browser on https://selenoid.autotests.cloud it must be windowed on 320x480 size and it takes much more time for each iteration.  
-Because of it the test setuped for Firefox browser.  
-Or it can be runed local by Chrome browser without any problems.
-
+Because of it the test setuped for Firefox browser.
 
 To build the test local follow these steps:
-
 ```shell
 # Open a terminal (Command Prompt or PowerShell for Windows, Terminal for macOS or Linux)
 
@@ -96,6 +108,21 @@ allure/bin/allure.bat serve tests/allure-results
 1. Check installed python packages. Use pip install for packages from requirements.txt
 2. Check path environment variable windows
 ```
+## ▶️ Example of a report
+### Allure report generated
+<img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure1.png" width="620" height="320"/>
+
+### Test statistics collected, bugs localized
+<img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure2.png" width="620" height="320"/>
+
+### Attached is a video of the test
+<video width="320" height="240" controls>
+  <source src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure3.mp4" type="video/mp4"/>
+</video>
+
+### Notification received of Jenkins build results in Telegram bot
+<img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Telegram.png" width="350" height="320"/>
+
 ## 📈 Summary
 First test is just an example of valid test. I fill an incorrect email in order not to clog the production. But it passed!=) And here we go to interesting part of my test...  
 Second and third shows bugs on https://www.takamul.net.sa
