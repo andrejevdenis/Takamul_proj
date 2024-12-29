@@ -32,12 +32,11 @@
 
 ## Table of Contents
 - [About](#-about)
-- [Takamul Autotst project]()
 - [Objects for test](#-objects-for-test)
 - [How to Build](#-how-to-build)
-- [Example of a report](#-example-of-a-report)
+- [Example of a report](#%EF%B8%8F-example-of-a-report)
 - [Summary](#-summary)
-- [Contacts](#-contacts)
+- [Contacts](#%EF%B8%8F-contacts)
 
 
 ## 🚀 About 
@@ -116,9 +115,7 @@ allure/bin/allure.bat serve tests/allure-results
 <img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure2.png" width="620" height="320"/>
 
 ### Attached is a video of the test
-<video width="320" height="240" controls>
-  <source src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure3.mp4" type="video/mp4"/>
-</video>
+![](https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure3.mp4)
 
 ### Notification received of Jenkins build results in Telegram bot
 <img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Telegram.png" width="350" height="320"/>
