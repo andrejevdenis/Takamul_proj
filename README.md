@@ -62,9 +62,10 @@ I'm **AQA Engineer**, born in 1986 Samara, Russia, here is some facts about me a
 
 # <h1 align="center">Takamul Autotst project</h1> 
 ## 🎯 Objects for test
-- Fill and send contact form positive test
-- Fill and send contact form negative test
+- Fill and send contact form, positive test
+- Fill and send contact form, negative test
 - Take some path from main page to check some buttons that java scripts work right and redirects is correct.
+- Asserts Digital Projects table [content](https://www.takamul.net.sa/services/digital-experience/digital-strategy) and buttons that should change it
 
 ## 📝 How to Build
 
@@ -121,7 +122,7 @@ allure/bin/allure.bat serve tests/allure-results
 <img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Telegram.png" width="350" height="320"/>
 
 ## 📈 Summary
-First test is just an example of valid test. I fill an incorrect email in order not to clog the production. But it passed!=) And here we go to interesting part of my test...  
+First test is just an example of valid test. I fill an incorrect email in order not to clog the production. But it passed! And here we go to interesting part of my test...  
 Second and third shows bugs on https://www.takamul.net.sa
 If i truly worked on it, for failed autotests i go there and manually locate this bug, check what can be wrong else? And then i can create a bug report for developers/
 
