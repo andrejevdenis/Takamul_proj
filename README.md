@@ -109,13 +109,15 @@ allure/bin/allure.bat serve tests/allure-results
 ```
 ## ▶️ Example of a report
 ### Allure report generated
-<img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure1.png" width="620" height="320"/>
+<img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure1.png" width="630" height="320"/>
 
 ### Test statistics collected, bugs localized
-<img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure2.png" width="620" height="320"/>
+<img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure2.png" width="630" height="320"/>
 
 ### Attached is a video of the test
-![](https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure3.mp4)
+<video width="620" height="320" controls>
+  <source src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure3.mp4" type="video/mp4">
+</video>
 
 ### Notification received of Jenkins build results in Telegram bot
 <img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Telegram.png" width="350" height="320"/>
