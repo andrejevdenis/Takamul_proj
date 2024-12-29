@@ -115,9 +115,7 @@ allure/bin/allure.bat serve tests/allure-results
 <img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure2.png" width="630" height="320"/>
 
 ### Attached is a video of the test
-<video width="620" height="320" controls>
-  <source src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure3.mp4" type="video/mp4">
-</video>
+<img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Allure3.gif" width="630" height="320"/>
 
 ### Notification received of Jenkins build results in Telegram bot
 <img src="https://github.com/andrejevdenis/Takamul_proj/blob/master/Icons/Telegram.png" width="350" height="320"/>
